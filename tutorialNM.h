@@ -46,4 +46,10 @@ double integral(double func(const double x), double a, double b, int n);
 // Integration using Simpson3/8 method for function inputs
 double simpson38(double func(const double x), double a, double b, int n);
 
+// Added new function
+void displayArray(double xin[]);
+
+// Added new function
+void displayArrays(double xin[], double yin[]);
+
 #endif
